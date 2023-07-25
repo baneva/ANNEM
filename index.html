@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lugrasimo&display=swap" rel="stylesheet">
+
+    <style>
+      body{
+        height: 1200px;
+      }
+      .header{
+        display: flex;
+        justify-content: center;
+        text-align: center;
+        align-items: center;
+        height: 90px;
+      }
+      .header-container{
+        display: flex;
+        justify-content: center;
+        font-family: Roboto, Arial;
+        color: red;
+        text-align: center;
+        align-items: center;
+      }
+      .heart{
+        font-size: 50px;
+      }
+      
+      .photo-grid{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        column-gap: 50px;
+        row-gap: 50px;
+
+      }
+      .photo-row{
+        display: flex;
+        flex: 350px;
+        text-align: center;
+        flex-direction:column;
+
+      }
+
+       @media (max-width: 750px){
+      .photo-grid {
+       grid-template-columns: 1fr 1fr;
+      } 
+      }
+      @media(min-width: 751px) and (max-width:999px){
+      .photo-grid{
+       grid-template-columns: 1fr 1fr 1fr;
+      }
+      }
+
+      @media(min-width: 1000px){
+      .photo-grid{ grid-template-columns: 1fr 1fr 1fr;
+      }
+      }
+
+      .photo-div{ 
+        display: inline;
+        
+        width: 320px;
+        border-style: solid;
+        border-width: 2px;
+        border-color: red;
+      }
+      .photo{
+        width: 320px;
+        display: block;
+        height: 319px;
+      }
+
+      .poet{
+        font-family: Lugrasimo, Arial;
+        width: 320px;
+        font-size: 20px;
+      }
+
+    </style>
+    <title>annem</title>
+  </head>
+  <body>
+    <header class="header">
+      <div class="header-container">
+       <p class="heart">&#10084; &#10084;</p> &nbsp &nbsp &nbspANNE SENI COK SEVIYORUM &nbsp &nbsp &nbsp<p class="heart">&#10084; &#10084;</p>
+      </div>
+    </header>
+    <main>
+      <section class="photo-grid">
+       <photo-row class="photo-row">
+         <div class="photo-div">
+         <img class="photo" src="photos/WhatsApp Image 2023-07-26 at 00.09.33.jpeg"> 
+         </div>
+         <div class="poet">
+         Güldüğümde gülen,
+         Ağladığımda ağlayan…
+         Benimle nefes alıp, benimle kaybolan canım annem…
+         İyi ki yanımdasın…
+         </div>
+       </photo-row>
+       <photo-row class="photo-row">
+        <div class="photo-div">
+        <img class="photo" src="photos/Screenshot 2023-07-26 020015.png"> 
+        </div>
+        <div class="poet">
+          Hayatımın en güzel çiçeğisin sen meleğim,
+          Tut ellerimi ve sakın kaybolma hiçbir yere,
+          Seninle yaşayacak daha çok şeyimiz var benim bir tanecik annem…          
+        </div>
+       </photo-row>
+       <photo-row class="photo-row">
+        <div class="photo-div">
+        <img class="photo" src="photos/Screenshot 2023-07-26 020033.png"> 
+        </div>
+        <div class="poet">
+          Beni sınırsız bir sevgiyle seven, yaşamımın hiçbir anında şefkatini esirgemeyen güzel yürekli annem… Hayattaki tek dayanağım, en güzel şansımsın. İyi ki varsın.
+        </div>
+       </photo-row>
+       <photo-row class="photo-row">
+        <div class="photo-div">
+        <img class="photo" src="photos/Screenshot 2023-07-26 020055.png"> 
+        </div>
+        <div class="poet">
+          Sen her zaman bizim başımızın tacı, evimizin biricik kraliçesisin, sen hepimizin kıymetlisi, bizim için çok değerlisin.
+        </div>
+       </photo-row>
+       <photo-row class="photo-row">
+        <div class="photo-div">
+        <img class="photo" src="photos/Screenshot 2023-07-26 020046.png"> 
+        </div>
+        <div class="poet">
+          Bana her zaman sevmeyi öğreten, gücüme güç katan, beni en zorlu olaylarda bile yüreklendiren canım annem, senin hakkını asla ödeyemem. Sen dünyanın en fedakar, en güçlü, en güzel kadınısın.
+        </div>
+       </photo-row>
+       <photo-row class="photo-row">
+        <div class="photo-div">
+        <img class="photo" src="photos/Screenshot 2023-07-26 020104.png"> 
+        </div>
+        <div class="poet">
+          Şu hayatta beni karşılıksız sevdiğine emin olduğum tek insan sensin, sırtımı gönül rahatlığıyla dayayabildiğim sensin, ve beni her zaman sevecek olan da sensin. Sen benim güzeller güzeli annemsin, iyi ki varsın.
+        </div>
+       </photo-row>
+      
+      </section>
+    </main>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  </body>
+</html>
